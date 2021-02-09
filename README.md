@@ -17,7 +17,7 @@ Note that the root file will always bring the total number of lines and bytes of
 ## Running and debugging the applcation
 
 Note: After any 'Running' procedure below open this example link http://localhost:8080/api/github?url=https://github.com/scrapinghub/sample-projects in your browser. 
-Note that you can change "https://github.com/scrapinghub/sample-projects" for any public repository. 
+Note that you can change the url parameter for any public repository. 
 
 ### Running the application from the command line.
 To run from the command line, go to project folder, execute `./mvnw spring-boot:run` and open the example link above.
