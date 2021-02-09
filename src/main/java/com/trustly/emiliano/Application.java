@@ -2,6 +2,8 @@ package com.trustly.emiliano;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 /**
  * 
@@ -11,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-public class Application {
+public class Application extends SpringBootServletInitializer {
 
 	/**
 	 * Application Main
@@ -26,6 +28,11 @@ public class Application {
 				e.printStackTrace();
 			}
 		}
+	}
+
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(Application.class);
 	}
 
 }
