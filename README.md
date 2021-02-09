@@ -2,13 +2,14 @@
 
 This project is related to a challenge made by Trustly, which aims to create an API to consult information from github repositories.
 
-The project is a standard Maven project, so you can import it to your IDE of choice.
-
-This project was created by Emiliano de Souza Pessoa using Spring Boot Framework.
+The project is a standard Maven project, so you can import it to your IDE of choice. It is also configured with Spring Boot.
 
 ## Running and debugging the applcation
 
-Note: After any 'Running' procedure below open this example link http://localhost:8080/api/github?url=https://github.com/scrapinghub/sample-projects in your browser. Note that you can change "https://github.com/scrapinghub/sample-projects" for any public repository. This link will bring the total number of lines and the total number of bytes of all the files of the give repository, grouped by file extension. If you don't want to perform the grouping just add the parameter &grouped=false to the url.
+Note: After any 'Running' procedure below open this example link http://localhost:8080/api/github?url=https://github.com/scrapinghub/sample-projects in your browser. 
+Note that you can change "https://github.com/scrapinghub/sample-projects" for any public repository. 
+This link will bring the total number of lines and the total number of bytes of all the files of the give repository, grouped by file extension. 
+If you don't want to perform the extension grouping just add the parameter &grouped=false to the url.
 The root file always will bring the total of the children files lines and bytes.
 
 ### Running the application from the command line.
