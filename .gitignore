@@ -32,3 +32,8 @@
 ._*
 .Spotlight-V100
 .Trashes
+
+*.project
+*.classpath
+*.jsdtscope
+*/target/**
