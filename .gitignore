@@ -36,4 +36,5 @@
 *.project
 *.classpath
 *.jsdtscope
-*/target/**
+*.settings/
+target/
