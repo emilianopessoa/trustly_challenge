@@ -12,7 +12,7 @@ import com.trustly.emiliano.model.RepositoryFile;
 
 /**
  * 
- * Class responsible for implementing the bitbucket repository loading service.
+ * Class responsible for implementing the github repository loading service.
  * 
  * @author Emiliano Pessôa
  *
