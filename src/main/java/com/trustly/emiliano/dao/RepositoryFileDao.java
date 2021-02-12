@@ -16,7 +16,7 @@ public interface RepositoryFileDao extends JpaRepository<RepositoryFile, String>
 
 	/**
 	 * 
-	 * Pesquisa todos {@link RepositoryFile} agrupados pela sua extensão.
+	 * Find all {@link RepositoryFile} grouped by extension.
 	 * 
 	 * @param url Repository url.
 	 * @return A list of {@link RepositoryFile}.
